@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Downloaded automatically by the CNN training script.
+cnn/data/
+
+# Local plotting cache.
+car-following-simulation/.mplconfig/
